@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root{
+    --main-color: #3a68b7;
+}
+
+html{
+    font-size: 65.5%;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: var(--main-color); */
+    background-image: linear-gradient(to top, var(--main-color), white);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    font-size: 1.8rem;
+}
+
+.principal{
+    width: 90%;
+    min-width: 32.5rem;
+    max-width: 56rem;
+    background-color: white;
+    padding: 1.5em;
+    box-shadow: -10px 0 0 rgba(0, 0, 0, .3);
+    border-radius: 5px;
+}
+
+.main-set{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend{
+    font-size: 3.2rem;
+    color: var(--main-color);
+    font-weight: 300;
+    padding: 1.8rem 0 2.5rem 0;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.user{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.user_form{
+    padding: .75rem;
+    border: 2px solid transparent;
+    border-bottom: 2px solid var(--main-color);
+    outline: 0;
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+    transition: all .3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.user_form:focus{
+    border: 2px solid var(--main-color);
+    padding: 1rem;
+    border-bottom: 5px solid var(--main-color);
+    border-radius: 3px;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.login-2{
+    display: flex;
+    align-items: center;
+}
+
+.login_text{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.btn{
+    background-color: var(--main-color);
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    color: white;
+    padding: 1rem 1.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-2{
+    background-color: transparent;
+    margin-left: 1.4rem;
+    padding: 0 .5rem;
+}
+
+.btn-2 a{
+    color: var(--main-color);
+    text-decoration: 0;
+}
+
+.forgot{
+    margin-left: 15rem;
+}
